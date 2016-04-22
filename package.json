@@ -1,16 +1,16 @@
 {
-  "name": "react-native-signalr",
-  "version": "0.0.7",
-  "description": "Connect to a SignalR server from react-native",
+  "name": "signalr-jquery-shim",
+  "version": "1.0.0",
+  "description": "Connect to a SignalR server without jquery dependency",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olofd/react-native-signalr.git"
+    "url": "git+https://github.com/jeremistadler/signalr-jquery-shim.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Olof Dahlbom",
+  "author": "Olof Dahlbom and Jeremi Stadler",
   "license": "MIT",
   "dependencies": {
     "ms-signalr-client": "^2.2.2",
