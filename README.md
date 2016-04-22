@@ -1,4 +1,4 @@
-#Signalr Client without jquery
+#Use the signalr Client without jquery
 
 The module shims the jQuery-dependency that signalr has.
 There is however an ongoing task upstream to remove this dependency.
