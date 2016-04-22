@@ -1,30 +1,27 @@
-#react-native-signalr
+#Signalr Client without jquery
 
-Connect to your SignalR-server with a active websocket-connection from react-native.
-Supports all error-handling and reconnection, including longpolling if needed.
-
-Today the module shims the jQuery-dependency that signalr has.
+The module shims the jQuery-dependency that signalr has.
 There is however an ongoing task upstream to remove this dependency.
 
-PS. Does NOT pull in the entire jQuery-library. Only shimes the few methods SignalR needs.
-Only tested on iOS. No known issues.
+PS. It does NOT pull in the entire jQuery-library. Only shimes the few methods SignalR needs.
+Only tested on iOS.
 
 #Install:
 ```
-npm i react-native-signalr --save
+npm i signalr-jquery-shim --save
 ```
 
 
-#Awesome-project:
+#Example usage:
 
-```
+```javascript
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
  */
 'use strict';
 var React = require('react-native');
-var signalr = require('react-native-signalr');
+var signalr = require('signalr-jquery-shim');
 
 var {
   AppRegistry,
